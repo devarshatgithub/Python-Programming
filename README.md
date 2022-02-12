@@ -52,4 +52,42 @@
     Sample Input: HackerRank.com presents "Pythonist 2".
     Sample Output: hACKERrANK.COM PRESENTS "pYTHONIST 2".
     ```
+
+6.  **You are given n words. Some words may repeat. For each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.**
+    ```
+    Sample Input:
+    4   
+    bcdef
+    abcdefg
+    bcde
+    bcdef
+    Sample Output:
+    3
+    2 1 1
+    ```
+    *Explanation: There are 3 distinct words. Here, "bcdef" appears twice in the input at the first and last positions. The other words appear once each. The order of the first appearances are "bcdef", "abcdefg" and "bcde" which corresponds to the output.*
+
+7.  **Glossary: Lapindrome is defined as a string which when split in the middle, gives two halves having the same characters and same frequency of each character. If there are odd number of characters in the string, we ignore the middle character and check for lapindrome.**
+    - For example gaga is a lapindrome, since the two halves ga and ga have the same characters with same frequency.
+    - Also, abccab, rotor and xyzxy are a few examples of lapindromes.
+    - Note that abbaab is NOT a lapindrome. The two halves contain the same characters but their frequencies do not match.
+
+    **Question: Your program needs to tell if the input strings are a lapindrome.** (*[source: CodeChef](https://www.codechef.com/problems/LAPIN)*)
+    ```
+    Sample Input:
+    6
+    gaga
+    abcde
+    rotor
+    xyzxy
+    abbaab
+    ababc
+    Sample Output:
+    YES
+    NO
+    YES
+    YES
+    NO
+    NO
+    ```
 <div align="center"><a herf="mailto:20ce014@charusat.edu.in"><img alt="🔄" width="20%" height="25%" src="https://media.giphy.com/media/edmlmNOAQjOWFE6MF3/giphy.gif"/><br><img alt="🔄" src="https://media.giphy.com/media/kyzzHEoaLAAr9nX4fy/giphy.gif" width="48" height="48"/></a></div>
