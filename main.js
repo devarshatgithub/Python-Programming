@@ -8,7 +8,7 @@ $(window).on('load', function(){
     $('body').css({
         'width': '100%',
         'height': '100%',
-        'cursor': "url('../src/feather.cur'), auto"
+        'cursor': "url('https://github.com/devarshatgithub/Python-Programming/blob/main/src/feather.cur'), auto"
     });
     $('embed').css({
         'height': 'fit-content'
